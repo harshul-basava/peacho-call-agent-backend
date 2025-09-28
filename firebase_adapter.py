@@ -39,14 +39,14 @@ load_dotenv()
 cred = credentials.Certificate("/Users/tanish/Desktop/projects/llm testing/hackgt-98a0b-firebase-adminsdk-fbsvc-0a0eec1ba5.json")
 
 # Configuration
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = #
 openai.api_key = OPENAI_API_KEY
 PORT = int(os.getenv('PORT', 8000))
 VOICE = "alloy"
 CLIENT = AsyncOpenAI(api_key=OPENAI_API_KEY)
 
-ACCOUNT_SID = "AC64e1b12be5e4f2c1ff2d0b71210d4920"
-AUTH_TOKEN = "5a4ae0a40a1a46a74bb49f1412027321"
+ACCOUNT_SID = #
+AUTH_TOKEN = #
 client = Client(ACCOUNT_SID, AUTH_TOKEN)
 logged = False
 
